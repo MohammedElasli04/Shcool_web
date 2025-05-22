@@ -1,0 +1,407 @@
+
+:root {
+    --primary-color: #3498db;
+    --secondary-color: rgb(57, 54, 54);
+    --third-color:  #2d139e;
+    --text-color-white: white;
+    --color-white: #f5f5f5;
+   
+    --danger-color: red;
+    --button-color: cyan;
+}
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+  .animated-section .lines {
+    position: absolute;
+    right: 5px;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    z-index: 2;
+  }
+  .animated-section .line {
+    position: absolute;
+    width: 2px;
+    background: white;
+    animation: move-line 1.5s ease-out forwards;
+  }
+  .animated-section .line.top {
+    top: 0;
+    left: 50%;
+    animation-delay: 0.5s;
+  }
+  /* .animated-section .line.bottom {
+    bottom: 0;
+    left: 50%;
+    animation-delay: 0.5s;
+  } */
+  @keyframes move-line {
+    0% {
+      height: 0;
+    }
+    100% {
+      height: 30%;
+    }
+  }
+  /* text animation b7al 1337 */
+  .text-container {
+    position: relative;
+    top: 300px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    padding: 0 20px;
+    color: rgb(249, 249, 249) ;
+    z-index: 1;
+    
+}
+.text-container b{
+  color: var(--primary-color);
+}
+/* Style for the typing text */
+.typing-text {
+    font-size: 2rem; /* Default font size */
+    font-weight: bold;
+    border-right: 4px solid rgba(255, 255, 255, 0.75); /* Cursor-like effect */
+    white-space: nowrap; /* Prevent the text from wrapping */
+    overflow: hidden; /* Hide text that is not yet typed */
+    width: 0; /* Start with zero width */
+    animation: typing 4s steps(30) 1s forwards, cursor.1ms step-end infinite alternate ; /* Typing and blinking effect */
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-direction: alternate;
+}
+/* Keyframe for typing effect */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width:50%;
+    }
+
+
+}
+@keyframes cursor {
+100% {
+    border-color: transparent;
+}
+}
+
+
+/* container dial navbar o background */
+body .container1 {
+    
+    position: relative;   
+    height: 100vh;
+    bottom :85px;
+    background-image: url(images&videos/vacance-image1.jpg);
+    filter: brightness(0.6);
+    background-size: COVER;
+    width: 100%;
+    background-position: 60%;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+/* position dial navbar */
+header  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* navbar  */
+header .navbar {
+    width: 100%;
+    max-width: 1200px;
+    height: 100px;
+    padding: 20px 30px;
+    background-color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 999;
+    position: fixed;
+    top: 0px;
+}
+/* logo ofppt */
+.logo {
+    
+    height:80px;
+    width:100px;
+}
+/* les lien dial navbar */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+li .nav-link {
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+li .nav-link:hover {
+    color: var(--primary-color);
+    transform: scale(1.1);
+    border-bottom: 2px solid var(--button-color);
+}
+.dropdpwn-item{
+    list-style: none;
+}
+/* Inscription Button */
+.app {
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: 700;
+    background-color: var(--primary-color);
+    color: black;
+    transition: 0.9s;
+    position: relative;
+    top: -6px;
+}
+
+.app:hover {
+    background-color: azure;
+}
+
+/* Menu */
+.menu-toggle {
+
+    display: none;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    background: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+/*efm image*/
+.calendar-container{
+    margin-bottom: 80px;
+    text-align: center;
+    color: rgb(12, 143, 47);
+}
+.efmimg{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.imaage{
+    width: 600px;
+
+    box-shadow: 0px 8px 20px black; 
+    border-radius: 10px; 
+}
+
+/* footer css */
+.footer {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    display:block;
+    margin: 10px;
+
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+.footer-column {
+    flex: 1;
+    margin: 10px;
+    min-width: 250px;
+    
+}
+.footer-column h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: var(--primary-color);
+}
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-column ul li {
+    margin: 5px 0;
+}
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+}
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+.footer-social {
+    margin-top: 20px;
+}
+.footer-social i {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.image-ofppt img{
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.footer-social .fa-instagram:hover{
+    color: #DD2A7B;
+}
+.footer-social .fa-facebook:hover{
+    color:#1877F2 ;
+}
+/*hadi la map li fl footer*/
+.map{ 
+    border-radius: 10px;
+    height: 100px;
+    width: 200px;
+}
+.footer-credits {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .footer-credits ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-credits ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .footer-credits p {
+    margin: 10px 0;
+  }
+
+/* Mobile index  */
+@media (max-width: 850px) {
+    .text-container {
+        position: relative;
+        top: 250PX;
+
+        }
+     
+        .imaage{
+            width: 400px;
+        
+            box-shadow: 0px 8px 20px black; 
+            border-radius: 10px; 
+        }
+
+    /* bach la ligne thbet ghir chwia */
+    .animated-section .line {
+      display: none;
+    
+
+    }
+   /* la ligne li lta7t t7aydat */
+      .animated-section .line.bottom {
+        display: none;
+      }
+      /* text animtion */
+      .typing-text {
+        font-size: 1rem; /* Smaller font size on smaller screens */
+        animation: tiping 3s steps(30) 1s forwards, blink 0.60s step-end infinite; /* Typing and blinking effect */
+    }
+    @keyframes tiping {
+        from {
+            width: 0;
+        }
+        to {
+            width: 90%;
+        }
+    
+    
+    }
+    /* image dial background */
+    .container1{
+        background-size: contain;
+        position: relative;
+        bottom: 250px;
+      
+    }
+    
+    /* nav welat f Menu */
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        right: 20px;
+        width: 200px;
+        padding: 10px;
+        border-radius: 8px;
+        background-color: var(--secondary-color);
+        backdrop-filter: blur(10px);
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.7);
+        height: 100vh;
+        transition: all 0.3s ease-in-out;
+      
+    }
+
+/* mni ka twerek 3la menu */
+    .menu-toggle {
+        display: block;
+     
+        
+    }
+
+    .nav-links.active {
+        display: flex;
+        height: 400px;
+    
+    }
+
+    .nav-link {
+        padding: 10px 20px;
+        
+
+
+}
+
+/* contenue */
+.item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .item img {
+    width: 80%;
+  }
+  .item.reverse {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .item.reverse img {
+      width: 100%;
+    }
+
+}

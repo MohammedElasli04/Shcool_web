@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club de Sport</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+    background-color: #f0f4f8; /* Light background for a fresh look */
+}
+
+h1, h2, h3 {
+    color: #343a40; /* Dark text color */
+}
+
+.gallery-img {
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transitions for scaling and shadow */
+}
+
+.gallery-img:hover {
+    transform: scale(1.05); /* Slightly enlarge image on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+}
+
+.form-group label {
+    font-weight: bold; /* Bold labels for form fields */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Primary button color */
+    border: none; /* Remove border */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+    </style>
+</head>
+<body>
+    <div class="container my-5">
+        <h1 class="text-center mb-4">Club de Sport</h1>
+        
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <h2>Description</h2>
+                <p>Le Club de Sport est un endroit où les élèves peuvent se réunir pour pratiquer divers sports, développer des compétences d'équipe et rester actifs. Que vous soyez un athlète chevronné ou un débutant, nous avons une place pour vous !</p>
+            </div>
+            <div class="col-md-6">
+                <h2>Activités</h2>
+                <ul>
+                    <li>Entraînements hebdomadaires</li>
+                    <li>Compétitions interscolaires</li>
+                    <li>Événements sportifs</li>
+                    <li>Ateliers de développement personnel</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2 class="text-center mb-4">Galerie</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <img src="images&videos/sport1.jpg" alt="Activité 1" class="img-fluid rounded shadow gallery-img">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="images&videos/sport2.jpg" alt="Activité 2" class="img-fluid rounded shadow gallery-img">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="images&videos/sport3.jpg" alt="Activité 3" class="img-fluid rounded shadow gallery-img">
+            </div>
+        </div>
+
+        <h2 class="text-center mb-4">Rejoignez-Nous</h2>
+        <div class="row">
+            <div class="col-md-12">
+                <h3>Formulaire d'Inscription</h3>
+                <!-- Embed Google Form here -->
+                <iframe src="YOUR_GOOGLE_FORM_EMBED_URL" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

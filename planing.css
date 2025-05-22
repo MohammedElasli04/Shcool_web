@@ -1,0 +1,101 @@
+body .container2 {
+    
+    position: relative;   
+    height: 100vh;
+    bottom :85px;
+    background-image: url(images&videos/planing-image.jpg);
+    filter: brightness(0.6);
+    background-size: COVER;
+    width: 100%;
+    background-position: 60%;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+/* footer css */
+.footer {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    display:block;
+    margin: 10px;
+
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+.footer-column {
+    flex: 1;
+    margin: 10px;
+    min-width: 250px;
+    
+}
+.footer-column h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: var(--primary-color);
+}
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-column ul li {
+    margin: 5px 0;
+}
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+}
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+.footer-social {
+    margin-top: 20px;
+}
+.footer-social i {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.image-ofppt img{
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.footer-social .fa-instagram:hover{
+    color: #DD2A7B;
+}
+.footer-social .fa-facebook:hover{
+    color:#1877F2 ;
+}
+/*hadi la map li fl footer*/
+.map{ 
+    border-radius: 10px;
+    height: 100px;
+    width: 200px;
+}
+.footer-credits {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .footer-credits ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-credits ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .footer-credits p {
+    margin: 10px 0;
+  }
