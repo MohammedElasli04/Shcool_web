@@ -103,7 +103,7 @@ body .container1 {
     position: relative;   
     height: 100vh;
     bottom :85px;
-    background-image: url(images&videos/vacance-image1.jpg);
+    background-image: url(../images&videos/vacance-image1.jpg);
     filter: brightness(0.6);
     background-size: COVER;
     width: 100%;
@@ -284,30 +284,28 @@ li .nav-link:hover {
 .footer-credits {
     max-width: 800px;
     margin: 0 auto;
-  }
-  
-  .footer-credits ul {
+}
+
+.footer-credits ul {
     list-style: none;
     padding: 0;
-  }
-  
-  .footer-credits ul li {
+}
+
+.footer-credits ul li {
     display: inline;
     margin: 0 10px;
-  }
-  
-  .footer-credits p {
+}
+
+.footer-credits p {
     margin: 10px 0;
-  }
+}
 
 /* Mobile index  */
 @media (max-width: 850px) {
     .text-container {
         position: relative;
         top: 250PX;
-
         }
-     
         .imaage{
             width: 400px;
         
@@ -317,16 +315,14 @@ li .nav-link:hover {
 
     /* bach la ligne thbet ghir chwia */
     .animated-section .line {
-      display: none;
-    
-
-    }
-   /* la ligne li lta7t t7aydat */
-      .animated-section .line.bottom {
         display: none;
-      }
+}
+   /* la ligne li lta7t t7aydat */
+    .animated-section .line.bottom {
+        display: none;
+    }
       /* text animtion */
-      .typing-text {
+    .typing-text {
         font-size: 1rem; /* Smaller font size on smaller screens */
         animation: tiping 3s steps(30) 1s forwards, blink 0.60s step-end infinite; /* Typing and blinking effect */
     }
@@ -345,7 +341,6 @@ li .nav-link:hover {
         background-size: contain;
         position: relative;
         bottom: 250px;
-      
     }
     
     /* nav welat f Menu */
@@ -363,13 +358,11 @@ li .nav-link:hover {
         box-shadow: 0px 0px 10px rgba(0,0,0,0.7);
         height: 100vh;
         transition: all 0.3s ease-in-out;
-      
     }
 
 /* mni ka twerek 3la menu */
     .menu-toggle {
         display: block;
-     
         
     }
 
@@ -382,26 +375,23 @@ li .nav-link:hover {
     .nav-link {
         padding: 10px 20px;
         
-
-
 }
 
 /* contenue */
-.item {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .item img {
-    width: 80%;
-  }
-  .item.reverse {
-      flex-direction: column;
-      text-align: center;
+    .item {
+        flex-direction: column;
+        text-align: center;
     }
-  
+
+    .item img {
+        width: 80%;
+    }
+    .item.reverse {
+            flex-direction: column;
+            text-align: center;
+    }
+
     .item.reverse img {
-      width: 100%;
+        width: 100%;
     }
-
 }
