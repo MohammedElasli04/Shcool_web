@@ -16,9 +16,7 @@
 
 <body>
     <?php
-       
-          include("header.html");
-
+        include("header.html");
     ?>
 <!-- background image et lignes -->
 
@@ -40,37 +38,26 @@
     <!-- JavaScript -->
     <!-- script pour menu on click -->
     <script>
-        
         const menuToggle = document.querySelector('.menu-toggle');
         const navLinks = document.querySelector('.nav-links');
-
         menuToggle.addEventListener('click', () => {
             navLinks.classList.toggle('active');
         });
     </script>
 
 <!-- <h1>PLANING DES EVENMENT</h1> -->
-<div class="calendar-container">
-<h1 >ici vous trouver calendrier des vacances</h1>
-</div>
-<!--IMAGE EFM-->
-<div class="efmimg">
-    <img class="imaage" src="images&videos/vacances.jpg">
-</div>
-
-
+    <div class="calendar-container">
+        <h1 >ici vous trouver calendrier des vacances</h1>
+    </div>
+    <!--IMAGE EFM-->
+    <div class="efmimg">
+        <img class="imaage" src="images&videos/vacances.jpg">
+    </div>
 
 <!-- footer -->
-  <?php 
-       
-       include("footer.html") ;
-  
-  ?>
-
-
-
-
-
+    <?php    
+        include("footer.html") ;
+    ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
 </body>

@@ -45,7 +45,7 @@
     animation-direction: alternate;
 }
 .typing-text span{
-  color: var(--primary-color);
+    color: var(--primary-color);
 }
 /* Keyframe for typing effect */
 @keyframes typing {
@@ -72,7 +72,7 @@ body .container1 {
     position: relative;   
     height: 100vh;
     bottom :85px;
-    background-image: url(images&videos/contact-image.jpg);
+    background-image: url(../images&videos/contact-image.jpg);
     filter: brightness(0.6);
     background-size: COVER;
     width: 100%;
