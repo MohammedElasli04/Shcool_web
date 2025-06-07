@@ -5,7 +5,6 @@
     --third-color:  #2d139e;
     --text-color-white: white;
     --color-white: #f5f5f5;
-   
     --danger-color: red;
     --button-color: cyan;
 }
@@ -17,40 +16,40 @@
     font-family: "Poppins", sans-serif;
 
 }
-  .animated-section .lines {
+.animated-section .lines {
     position: absolute;
     right: 5px;
     width: 100%;
     height: 100%;
     opacity: 1;
     z-index: 2;
-  }
-  .animated-section .line {
+}
+.animated-section .line {
     position: absolute;
     width: 2px;
     background: white;
     animation: move-line 1.5s ease-out forwards;
-  }
-  .animated-section .line.top {
+}
+.animated-section .line.top {
     top: 0;
     left: 50%;
     animation-delay: 0.5s;
-  }
-  /* .animated-section .line.bottom {
+}
+/* .animated-section .line.bottom {
     bottom: 0;
     left: 50%;
     animation-delay: 0.5s;
   } */
-  @keyframes move-line {
+@keyframes move-line {
     0% {
-      height: 0;
+        height: 0;
     }
     100% {
-      height: 30%;
+        height: 30%;
     }
-  }
+}
   /* text animation b7al 1337 */
-  .text-container {
+.text-container {
     position: relative;
     top: 300px;
     display: flex; 
@@ -64,7 +63,7 @@
     
 }
 .text-container b{
-  color: var(--primary-color);
+    color: var(--primary-color);
 }
 /* Style for the typing text */
 .typing-text {
@@ -103,7 +102,7 @@ body .container1 {
     position: relative;   
     height: 100vh;
     bottom :85px;
-    background-image: url(images&videos/efm-image2.jpg);
+    background-image: url(../images&videos/efm-image2.jpg);
     filter: brightness(0.6);
     background-size: COVER;
     width: 100%;
@@ -337,44 +336,41 @@ body {
 .footer-credits {
     max-width: 800px;
     margin: 0 auto;
-  }
-  
-  .footer-credits ul {
+}
+.footer-credits ul {
     list-style: none;
     padding: 0;
-  }
-  
-  .footer-credits ul li {
+}
+
+.footer-credits ul li {
     display: inline;
     margin: 0 10px;
-  }
-  
-  .footer-credits p {
+}
+
+.footer-credits p {
     margin: 10px 0;
-  }
+}
 
 /* Mobile index  */
 @media (max-width: 850px) {
     .text-container {
         position: relative;
         top: 250PX;
-
         }
-     
-
+    
 
     /* bach la ligne thbet ghir chwia */
     .animated-section .line {
-      display: none;
+        display: none;
     
 
     }
    /* la ligne li lta7t t7aydat */
-      .animated-section .line.bottom {
+    .animated-section .line.bottom {
         display: none;
-      }
+    }
       /* text animtion */
-      .typing-text {
+    .typing-text {
         font-size: 1rem; /* Smaller font size on smaller screens */
         animation: tiping 3s steps(30) 1s forwards, blink 0.60s step-end infinite; /* Typing and blinking effect */
     }
@@ -393,7 +389,6 @@ body {
         background-size: contain;
         position: relative;
         bottom: 250px;
-      
     }
     
     /* nav welat f Menu */
@@ -411,7 +406,6 @@ body {
         box-shadow: 0px 0px 10px rgba(0,0,0,0.7);
         height: 100vh;
         transition: all 0.3s ease-in-out;
-      
     }
 
 /* mni ka twerek 3la menu */
@@ -428,26 +422,24 @@ body {
     .nav-link {
         padding: 10px 20px;
         
-
-
 }
 
 /* contenue */
-.item {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .item img {
-    width: 100%;
-  }
-  .item.reverse {
-      flex-direction: column;
-      text-align: center;
+    .item {
+        flex-direction: column;
+        text-align: center;
     }
-  
+
+    .item img {
+        width: 100%;
+    }
+
+    .item.reverse {
+        flex-direction: column;
+        text-align: center;
+    }
+
     .item.reverse img {
-      width: 100%;
+        width: 100%;
     }
-
 }
