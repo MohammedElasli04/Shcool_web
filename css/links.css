@@ -4,7 +4,6 @@
     --third-color:  #2d139e;
     --text-color-white: white;
     --color-white: #f5f5f5;
-   
     --danger-color: red;
     --button-color: cyan;
 }
@@ -109,7 +108,7 @@ body .container1 {
     position: relative;   
     height: 100vh;
     bottom :85px;
-    background-image: url(images&videos/lien-utile-image.jpeg);
+    background-image: url(../images&videos/lien-utile-image.jpeg);
     filter: brightness(0.6);
     background-size: COVER;
     width: 100%;
@@ -433,20 +432,16 @@ color: black;
 }
 
 @media (max-width: 850px) {
-  .text-container {
+    .text-container {
       position: relative;
       top: 250PX;
-
-      }
-   
-
+    }
 
   /* bach la ligne thbet ghir chwia */
-  .animated-section .line {
-    display: none;
-  
+    .animated-section .line {
+      display: none;
+    }
 
-  }
  /* la ligne li lta7t t7aydat */
     .animated-section .line.bottom {
       display: none;
@@ -455,8 +450,8 @@ color: black;
     .typing-text {
       font-size: 1rem; /* Smaller font size on smaller screens */
       animation: tiping 3s steps(30) 1s forwards, blink 0.60s step-end infinite; /* Typing and blinking effect */
-  }
-  @keyframes tiping {
+    }
+    @keyframes tiping {
       from {
           width: 0;
       }
@@ -464,18 +459,16 @@ color: black;
           width: 90%;
       }
   
-  
   }
   /* image dial background */
-  .container1{
+    .container1{
       background-size: contain;
       position: relative;
       bottom: 250px;
-    
-  }
+    }
   
   /* nav welat f Menu */
-  .nav-links {
+    .nav-links {
       display: none;
       flex-direction: column;
       position: absolute;
@@ -490,48 +483,43 @@ color: black;
       height: 100vh;
       transition: all 0.3s ease-in-out;
     
-  }
+    }
 
 /* mni ka twerek 3la menu */
-  .menu-toggle {
+    .menu-toggle {
       display: block;
-      
-  }
+    }
 
-  .nav-links.active {
+    .nav-links.active {
       display: flex;
-  height: 400px;
-  }
+      height: 400px;
+    }
 
-  .nav-link {
+    .nav-link {
       padding: 10px 20px;
-      
+    }
 
-
-}
-.loader {
-  color: rgb(124, 124, 124);
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 15px;
-
-  }
+    .loader {
+      color: rgb(124, 124, 124);
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      font-size: 15px;
+    }
 /* contenue */
-.item {
-  flex-direction: column;
-  text-align: center;
-}
+    .item {
+      flex-direction: column;
+      text-align: center;
+    }
 
-.item img {
-  width: 100%;
-}
-.item.reverse {
-    flex-direction: column;
-    text-align: center;
-  }
+    .item img {
+      width: 100%;
+    }
+    .item.reverse {
+      flex-direction: column;
+      text-align: center;
+    }
 
-  .item.reverse img {
-    width: 100%;
-  }
-
+    .item.reverse img {
+      width: 100%;
+    }
 }
