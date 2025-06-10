@@ -5,7 +5,6 @@
     --third-color:  #2d139e;
     --text-color-white: white;
     --color-white: #f5f5f5;
-   
     --danger-color: red;
     --button-color: cyan;
 }
@@ -17,40 +16,40 @@
     font-family: "Poppins", sans-serif;
 
 }
-  .animated-section .lines {
+.animated-section .lines {
     position: absolute;
     right: 5px;
     width: 100%;
     height: 100%;
     opacity: 1;
     z-index: 2;
-  }
-  .animated-section .line {
+}
+.animated-section .line {
     position: absolute;
     width: 2px;
     background: white;
     animation: move-line 1.5s ease-out forwards;
-  }
-  .animated-section .line.top {
+}
+.animated-section .line.top {
     top: 0;
     left: 50%;
     animation-delay: 0.5s;
-  }
-  /* .animated-section .line.bottom {
+}
+/* .animated-section .line.bottom {
     bottom: 0;
     left: 50%;
     animation-delay: 0.5s;
   } */
-  @keyframes move-line {
+@keyframes move-line {
     0% {
-      height: 0;
+        height: 0;
     }
     100% {
-      height: 30%;
+        height: 30%;
     }
-  }
+}
   /* text animation b7al 1337 */
-  .text-container {
+.text-container {
     position: relative;
     top: 300px;
     display: flex; 
@@ -64,7 +63,7 @@
     
 }
 .text-container b{
-  color: var(--primary-color);
+    color: var(--primary-color);
 }
 /* Style for the typing text */
 .typing-text {
@@ -91,19 +90,18 @@
 
 }
 @keyframes cursor {
-100% {
-    border-color: transparent;
-}
+    100% {
+        border-color: transparent;
+    }
 }
 
 
 /* container dial navbar o background */
 body .container1 {
-    
     position: relative;   
     height: 100vh;
     bottom :85px;
-    background-image: url(images&videos/stagiaire-de-mois.jpg);
+    background-image: url(../images&videos/stagiaire-de-mois.jpg);
     filter: brightness(0.6);
     background-size: COVER;
     width: 100%;
@@ -136,7 +134,6 @@ header .navbar {
 }
 /* logo ofppt */
 .logo {
-    
     height:80px;
     width:100px;
 }
@@ -202,58 +199,55 @@ li .nav-link:hover {
 
  /* les images des activites m3a l animation */
 
- .celebration-section {
+.celebration-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 40px;
     gap: 20px;
     background-color: #f5f5f5;
-  }
-  
-  .celebration-image {
+}
+
+.celebration-image {
     flex: 1;
-  }
-  
-  .celebration-image img {
+}
+
+.celebration-image img {
     max-width: 70%;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease; /* Smooth transition */
-  }
-  
-  .celebration-image img:hover {
+}
+.celebration-image img:hover {
     transform: scale(1.1); /* Slight zoom-in effect */
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Subtle shadow effect */
     filter: brightness(1.1); /* Slight brightness increase */
-  }
-  .celebration-text {
+}
+.celebration-text {
     flex: 1;
     max-width: 700px;
-  }
-  
-  .celebration-text h2 {
+}
+.celebration-text h2 {
     font-size: 2rem;
     color: var(--primary-color);
     margin-bottom: 15px;
-  }
-  
-  .celebration-text p {
+}
+
+.celebration-text p {
     font-size: 1rem;
     line-height: 1.6;
     color: #666666;
-  }
-  @media (max-width: 700px) {
+}
+@media (max-width: 700px) {
     .celebration-section {
-      flex-direction: column;
-      align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
-  
     .celebration-image img {
-      max-width: 90%;
+        max-width: 90%;
     }
-  }
+}
 /* footer css */
 .footer {
     background-color: var(--secondary-color);
@@ -277,7 +271,6 @@ li .nav-link:hover {
     flex: 1;
     margin: 10px;
     min-width: 250px;
-    
 }
 .footer-column h3 {
     margin-bottom: 10px;
@@ -321,21 +314,20 @@ li .nav-link:hover {
 .footer-credits {
     max-width: 800px;
     margin: 0 auto;
-  }
-  
-  .footer-credits ul {
+}
+
+.footer-credits ul {
     list-style: none;
     padding: 0;
-  }
-  
-  .footer-credits ul li {
+}
+.footer-credits ul li {
     display: inline;
     margin: 0 10px;
-  }
-  
-  .footer-credits p {
+}
+
+.footer-credits p {
     margin: 10px 0;
-  }
+}
 /*hadi la map li fl footer*/
 .map{ 
     border-radius: 10px;
@@ -343,29 +335,22 @@ li .nav-link:hover {
     width: 200px;
 }
 
-
 /* Mobile index  */
 @media (max-width: 850px) {
     .text-container {
         position: relative;
         top: 250PX;
-
         }
-     
-
-
     /* bach la ligne thbet ghir chwia */
     .animated-section .line {
-      display: none;
-    
-
+        display: none;
     }
    /* la ligne li lta7t t7aydat */
-      .animated-section .line.bottom {
+    .animated-section .line.bottom {
         display: none;
-      }
+    }
       /* text animtion */
-      .typing-text {
+    .typing-text {
         font-size: 1rem; /* Smaller font size on smaller screens */
         animation: tiping 3s steps(30) 1s forwards, blink 0.60s step-end infinite; /* Typing and blinking effect */
     }
@@ -376,17 +361,13 @@ li .nav-link:hover {
         to {
             width: 90%;
         }
-    
-    
     }
     /* image dial background */
     .container1{
         background-size: contain;
         position: relative;
         bottom: 250px;
-      
     }
-    
     /* nav welat f Menu */
     .nav-links {
         display: none;
@@ -402,43 +383,32 @@ li .nav-link:hover {
         box-shadow: 0px 0px 10px rgba(0,0,0,0.7);
         height: 100vh;
         transition: all 0.3s ease-in-out;
-      
     }
-
 /* mni ka twerek 3la menu */
     .menu-toggle {
         display: block;
-        
     }
-
     .nav-links.active {
         display: flex;
-    height: 400px;
+        height: 400px;
     }
-
     .nav-link {
         padding: 10px 20px;
-        
-
-
-}
-
+    }
 /* contenue */
-.item {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .item img {
-    width: 100%;
-  }
-  .item.reverse {
-      flex-direction: column;
-      text-align: center;
+    .item {
+        flex-direction: column;
+        text-align: center;
     }
-  
+
+    .item img {
+        width: 100%;
+    }
+    .item.reverse {
+        flex-direction: column;
+        text-align: center;
+    }
     .item.reverse img {
-      width: 100%;
+        width: 100%;
     }
-
 }
