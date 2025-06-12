@@ -323,7 +323,6 @@
                 boxes[i].style.display = name.includes(input) ? '' : 'none';
             }
         }
-
         function toggleAdditionalTrainers() {
             const additionalTrainers = document.getElementById('additional-trainers');
             additionalTrainers.style.display = additionalTrainers.style.display === 'block' ? 'none' : 'block';
@@ -334,7 +333,6 @@
             organigram.style.display = organigram.style.display === 'block' ? 'none' : 'block';
         }
     </script>
-
 <!-- Les cartes avec les infos des stagiaires, formateurs, etc. -->
     <section>
         <div class="card-container">
@@ -355,7 +353,6 @@
             </div>
         </div>
     </section>
-
 <!-- Section d'Appréciation -->
     <div class="appreciation">
         <h2>Appréciation Spéciale</h2>
@@ -376,13 +373,11 @@
             </div>
         </div>
     </div>
-
 <!-- On-scroll-animation -->
 <!-- JavaScript -->
     <script>
         // Select all elements to animate
         const elementsToAnimate = document.querySelectorAll('.animate-on-scroll');
-
         // Create the Intersection Observer
         const observer = new IntersectionObserver((entries, observer) => {
             entries.forEach(entry => {
@@ -423,12 +418,10 @@
             </div>
         </div>
     </section>
-
 <!-- Footer -->
     <?php 
         include("footer.html") ;
     ?>
-
 <!-- script-bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
 </body>
