@@ -4,7 +4,6 @@
     --third-color:  #2d139e;
     --text-color-white: white;
     --color-white: #f5f5f5;
-   
     --danger-color: red;
     --button-color: cyan;
 }
@@ -21,40 +20,40 @@ body {
     /* Prevent scrolling during animation */
 }
 
-  .animated-section .lines {
+.animated-section .lines {
     position: absolute;
     right: 5px;
     width: 100%;
     height: 100%;
     opacity: 1;
     z-index: 2;
-  }
-  .animated-section .line {
+}
+.animated-section .line {
     position: absolute;
     width: 2px;
     background: white;
     animation: move-line 1.5s ease-out forwards;
-  }
-  .animated-section .line.top {
+}
+.animated-section .line.top {
     top: 0;
     left: 50%;
     animation-delay: 0.5s;
-  }
+}
   /* .animated-section .line.bottom {
     bottom: 0;
     left: 50%;
     animation-delay: 0.5s;
   } */
-  @keyframes move-line {
+@keyframes move-line {
     0% {
       height: 0;
     }
     100% {
       height: 35%;
     }
-  }
+}
   /* text animation b7al 1337 */
-  .text-container {
+.text-container {
     position: relative;
     top: 300px;
     display: flex; 
@@ -94,27 +93,18 @@ body {
   to {
       width: 50%;
   }
-
-
 }
 @keyframes cursor {
-100% {
-  border-color: transparent;
+  100% {
+    border-color: transparent;
+  }
 }
-}
-
-
-
-
-
-
 /* container dial navbar o background */
 body .container1 {
-    
     position: relative;   
     height: 100vh;
     bottom :85px;
-    background-image: url(images&videos/about-image.jpeg);
+    background-image: url(../images&videos/about-image.jpeg);
     filter: brightness(0.6);
     background-size: COVER;
     width: 100%;
@@ -194,14 +184,12 @@ header .navbar {
 
 /* Menu */
 .menu-toggle {
-
     display: none;
     font-size: 1.5rem;
     color: var(--primary-color);
     background: none;
     border: none;
     cursor: pointer;
-
 }
 
 /* histoir */
@@ -212,42 +200,41 @@ header .navbar {
     padding: 40px;
     gap: 20px;
     
-  }
-  
-  .celebration-image {
+}
+.celebration-image {
     flex: 1;
-  }
+}
   
-  .celebration-image img {
+.celebration-image img {
     max-width: 70%;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease; /* Smooth transition */
-  }
+}
   
-  .celebration-image img:hover {
+.celebration-image img:hover {
     transform: scale(1.1); /* Slight zoom-in effect */
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Subtle shadow effect */
     filter: brightness(1.1); /* Slight brightness increase */
-  }
-  .celebration-text {
+}
+.celebration-text {
     flex: 1;
     max-width: 700px;
-  }
+}
   
-  .celebration-text h2 {
+.celebration-text h2 {
     font-size: 2rem;
     color: var(--primary-color);
     margin-bottom: 15px;
-  }
+}
   
-  .celebration-text p {
+.celebration-text p {
     font-size: 1rem;
     line-height: 1.6;
     color: #666666;
-  }
-  @media (max-width: 700px) {
+}
+@media (max-width: 700px) {
     .celebration-section {
       flex-direction: column;
       align-items: center;
@@ -256,24 +243,24 @@ header .navbar {
     .celebration-image img {
       max-width: 90%;
     }
-  }
+}
   
-  /* Animation Styles */
-  /* Initial state for animations */
-  .animate-on-scroll {
+/* Animation Styles */
+/* Initial state for animations */
+.animate-on-scroll {
     opacity: 0;
     transform: translateY(30px); /* Slide up effect */
     transition: opacity 1s ease-out, transform 1.5s ease-out;
-  }
+}
   
   /* When in view */
-  .animate-on-scroll.animate {
+.animate-on-scroll.animate {
     opacity: 1;
     transform: translateY(0); /* Reset position */
-  }
+}
 
   /* organigram */
-  .organigram {
+.organigram {
     background-color: #f5f5f5;
     display: flex;
     flex-direction: column;
@@ -358,7 +345,6 @@ header .navbar {
     justify-content: space-around;
     flex-wrap: wrap; /* Enable wrapping for smaller screens */
     margin-top: 10px;
-   
 }
 .team-member {
     text-align: center;
@@ -411,8 +397,8 @@ h3, h4 {
     margin-top: 20px;
 }
 
-  /* les carte */
-  .card-container {
+/* les carte */
+.card-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -461,30 +447,28 @@ h3, h4 {
 
 /* des link rapid */
 .campus-life-activities {
-   
     border-radius: 50px;
     max-width: 1400px;
     margin: 0 auto;
     padding: 80px 20px;
     font-family: "Poppins", sans-serif;
-  }
-  
-  .campus-life-activities h2 {
+}
+.campus-life-activities h2 {
     text-align: center;
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 40px;
     color: var(--primary-color);
-  }
+}
   
-  .row {
+.row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 60px;
-  }
+}
   
-  .activity-box {
+.activity-box {
     
     border-radius: 10px;
     padding: 40px;
@@ -494,33 +478,31 @@ h3, h4 {
     max-width: 280px;
     margin: 20px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  }
+}
   
-  .activity-box:hover {
+.activity-box:hover {
     transform: translateY(-10px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  }
-  
-  .activity-box i {
+}
+.activity-box i {
     font-size: 48px;
     color: #007bff;
     margin-bottom: 20px;
-  }
-  
-  .activity-box h3 {
+}  
+.activity-box h3 {
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 10px;
     color: var(--primary-color);
-  }
+}
   
-  .activity-box p {
+.activity-box p {
     font-size: 16px;
     color: #666;
     line-height: 1.5;
-  }
+}
   
-  @media (min-width: 768px) {
+@media (min-width: 768px) {
     .row {
       flex-wrap: nowrap;
     }
@@ -529,17 +511,7 @@ h3, h4 {
       width: auto;
       flex-grow: 1;
     }
-  }
-
-
-
-
-
-
-
-
-
-
+}
 /* footer css */
 .footer {
     background-color: var(--secondary-color);
@@ -634,25 +606,19 @@ h3, h4 {
     .text-container {
         position: relative;
         top: 250PX;
-
         }
-     
-
-
     /* bach la ligne thbet ghir chwia */
     .animated-section .line {
       display: none;
-    
-
     }
    /* la ligne li lta7t t7aydat */
-      .animated-section .line.bottom {
-        display: none;
-      }
+    .animated-section .line.bottom {
+      display: none;
+    }
       /* text animtion */
-      .typing-text {
-        font-size: 1rem; /* Smaller font size on smaller screens */
-        animation: tiping 3s steps(30) 1s forwards, blink 0.60s step-end infinite; /* Typing and blinking effect */
+    .typing-text {
+      font-size: 1rem; /* Smaller font size on smaller screens */
+      animation: tiping 3s steps(30) 1s forwards, blink 0.60s step-end infinite; /* Typing and blinking effect */
     }
     @keyframes tiping {
         from {
@@ -661,8 +627,6 @@ h3, h4 {
         to {
             width: 90%;
         }
-    
-    
     }
     /* image dial background */
     .container1{
@@ -671,7 +635,6 @@ h3, h4 {
         bottom: 250px;
       
     }
-    
     /* nav welat f Menu */
     .nav-links {
         display: none;
@@ -703,10 +666,5 @@ h3, h4 {
 
     .nav-link {
         padding: 10px 20px;
-        
-
-
-}
-
-
+    }
 }
