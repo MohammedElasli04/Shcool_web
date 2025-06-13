@@ -4,7 +4,6 @@
   --third-color: #2d139e;
   --text-color-white: white;
   --color-white: #f5f5f5;
-
   --danger-color: red;
   --button-color: cyan;
 }
@@ -100,7 +99,7 @@ body .container1 {
   position: relative;
   height: 100vh;
   bottom: 85px;
-  background-image: url("images&videos/cad\ \(2\).jpg");
+  background-image: url("../images&videos/cad\ \(2\).jpg");
   filter: brightness(0.6);
   background-size: COVER;
   width: 100%;
@@ -412,7 +411,6 @@ main {
 }
 
 /* animTION */
-
 .item {
   opacity: 0;
   transform: translateX(-100px);
@@ -463,18 +461,6 @@ main {
     margin: none;
   }
 }
-/* .show {
-    opacity: 1;
-    filter: blur(0);
-    transform: translatex(0);
-}
-.box-container .item:nth-child(2) {
-    transition-delay: 600ms;
-    /* transform: translateX(100%);  */
-/* justify-content: flex-end;
-} */
-
-/* les images des activites m3a l animation */
 
 .celebration-section {
   display: flex;
@@ -580,13 +566,13 @@ main {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Stronger shadow effect */
 }
 .formateur1:hover {
-  content: url(formateur-gifgif.gif);
+  content: url(../images&videos/formateur-gifgif.gif);
 }
 .formateur2:hover {
-  content: url(formateur4.gif);
+  content: url(../images&videos/formateur4.gif);
 }
 .formateur3:hover {
-  content: url(formateur-3-gif.gif);
+  content: url(../images&videos/imformateur-3-gif.gif);
 }
 .navigation-buttons {
   display: none;
@@ -613,7 +599,6 @@ main {
   .navigation-buttons {
     display: flex;
     justify-content: space-between;
-
     margin-bottom: px;
     margin-left: 50px;
     margin-right: 50px;
@@ -624,9 +609,7 @@ main {
     cursor: pointer;
     margin: 0 20px;
     border-radius: 30px;
-
     background-color: rgb(244, 232, 232);
-
     transition: transform 0.3s ease, color 0.3s ease;
   }
 
@@ -660,7 +643,6 @@ main {
   justify-content: center;
   margin-bottom: 60px;
 }
-
 .activity-box {
   background-color: #fff;
   border-radius: 10px;
@@ -672,36 +654,30 @@ main {
   margin: 20px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
-
 .activity-box:hover {
   transform: translateY(-10px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-
 .activity-box i {
   font-size: 48px;
   color: #007bff;
   margin-bottom: 20px;
 }
-
 .activity-box h3 {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 10px;
   color: var(--primary-color);
 }
-
 .activity-box p {
   font-size: 16px;
   color: #666;
   line-height: 1.5;
 }
-
 @media (min-width: 768px) {
   .row {
     flex-wrap: nowrap;
   }
-
   .activity-box {
     width: auto;
     flex-grow: 1;
@@ -799,7 +775,6 @@ main {
     position: relative;
     top: 250px;
   }
-
   /* bach la ligne thbet ghir chwia */
   .animated-section .line {
     display: none;

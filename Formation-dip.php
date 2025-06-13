@@ -40,8 +40,8 @@
 
     <section id="formation">
         <H1 id="titre">Les filières assurées à cet <span>établissement</span></H1>
- <div class="formation">
-    <div class="filier card" style="width: 21rem;">
+    <div class="formation">
+      <div class="filier card" style="width: 21rem;">
         <img class="card-img-top" src="images&videos/dd.jpg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Développement Digital</h5>
