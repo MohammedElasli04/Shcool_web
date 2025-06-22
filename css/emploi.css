@@ -1,4 +1,3 @@
-
 :root {
     --primary-color: #3498db;
     --secondary-color: rgb(57, 54, 54);
@@ -16,40 +15,39 @@
     font-family: "Poppins", sans-serif;
 
 }
-  .animated-section .lines {
+
+.animated-section .lines {
     position: absolute;
     right: 5px;
     width: 100%;
     height: 100%;
     opacity: 1;
     z-index: 2;
-  }
-  .animated-section .line {
+}
+
+.animated-section .line {
     position: absolute;
     width: 2px;
     background: white;
     animation: move-line 1.5s ease-out forwards;
-  }
-  .animated-section .line.top {
+}
+
+.animated-section .line.top {
     top: 0;
     left: 50%;
     animation-delay: 0.5s;
-  }
-  /* .animated-section .line.bottom {
-    bottom: 0;
-    left: 50%;
-    animation-delay: 0.5s;
-  } */
-  @keyframes move-line {
+}
+
+@keyframes move-line {
     0% {
-      height: 0;
+        height: 0;
     }
     100% {
-      height: 35%;
+        height: 35%;
     }
-  }
-  /* text animation b7al 1337 */
-  .text-container {
+}
+/* text animation b7al 1337 */
+.text-container {
     position: relative;
     top: 300px;
     display: flex; 
@@ -60,10 +58,10 @@
     padding: 0 20px;
     color: rgb(249, 249, 249) ;
     z-index: 1;
-    
 }
+
 .text-container b{
-  color: var(--primary-color);
+    color: var(--primary-color);
 }
 /* Style for the typing text */
 .typing-text {
@@ -86,19 +84,15 @@
     to {
         width: 70%;
     }
-
-
 }
+
 @keyframes cursor {
-100% {
-    border-color: transparent;
+    100% {
+        border-color: transparent;
+    }
 }
-}
-
-
 /* container dial navbar o background */
 body .container1 {
-    
     position: relative;   
     height: 100vh;
     bottom :85px;
@@ -110,7 +104,6 @@ body .container1 {
     background-repeat: no-repeat;
     z-index: -1;
 }
-
 /* position dial navbar */
 header  {
     display: flex;
@@ -135,7 +128,6 @@ header .navbar {
 }
 /* logo ofppt */
 .logo {
-    
     height:80px;
     width:100px;
 }
@@ -179,19 +171,15 @@ li .nav-link:hover {
 .app:hover {
     background-color: azure;
 }
-
 /* Menu */
 .menu-toggle {
-
     display: none;
     font-size: 1.5rem;
     color: var(--primary-color);
     background: none;
     border: none;
     cursor: pointer;
-
 }
-
 /* /emploi style */
 /* Base styles */
 .calendar-container {
@@ -199,12 +187,10 @@ li .nav-link:hover {
     color: rgb(12, 143, 47);
     margin-bottom: 20px;
 }
-
 .calendar-container h1 {
     margin: 0;
     padding: 20px 0;
 }
-
 /* Center the dropdown container */
 .dropdown-container {
     display: flex;
@@ -230,7 +216,6 @@ li .nav-link:hover {
     border-radius: 4px;
     background-color: #fff;
 }
-
 /* Schedule container */
 .schedule-container {
     margin-top: 20px;
@@ -240,7 +225,6 @@ li .nav-link:hover {
     max-width: 100%; /* Ensure the container doesn't exceed the screen width */
     overflow: visible; /* Allow images to resize naturally */
 }
-
 /* Responsive images */
 .imgallo {
     max-width: 100%; /* Ensure images don't exceed the width of their container */
@@ -251,7 +235,6 @@ li .nav-link:hover {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
     object-fit: contain; /* Ensure the image fits within the container without cropping */
 }
-
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .dropdown-container {
@@ -273,8 +256,8 @@ li .nav-link:hover {
     font-size: 14px;
     display:block;
     margin: 10px;
-
 }
+
 .footer-container {
     display: flex;
     justify-content: space-around;
@@ -283,40 +266,48 @@ li .nav-link:hover {
     max-width: 1200px;
     margin: auto;
 }
+
 .footer-column {
     flex: 1;
     margin: 10px;
-    min-width: 250px;
-    
+    min-width: 250px;    
 }
+
 .footer-column h3 {
     margin-bottom: 10px;
     font-size: 18px;
     color: var(--primary-color);
 }
+
 .footer-column ul {
     list-style: none;
     padding: 0;
 }
+
 .footer-column ul li {
     margin: 5px 0;
 }
+
 .footer-column ul li a {
     color: white;
     text-decoration: none;
 }
+
 .footer-column ul li a:hover {
     text-decoration: underline;
 }
+
 .footer-social {
     margin-top: 20px;
 }
+
 .footer-social i {
     margin: 0 10px;
     color: white;
     text-decoration: none;
     font-size: 20px;
 }
+
 .image-ofppt img{
     width: 150px;
     margin-bottom: 20px;
@@ -325,6 +316,7 @@ li .nav-link:hover {
 .footer-social .fa-instagram:hover{
     color: #DD2A7B;
 }
+
 .footer-social .fa-facebook:hover{
     color:#1877F2 ;
 }
@@ -334,46 +326,40 @@ li .nav-link:hover {
     height: 100px;
     width: 200px;
 }
+
 .footer-credits {
     max-width: 800px;
     margin: 0 auto;
-  }
-  
-  .footer-credits ul {
+}
+
+.footer-credits ul {
     list-style: none;
     padding: 0;
-  }
-  
-  .footer-credits ul li {
+}
+
+.footer-credits ul li {
     display: inline;
     margin: 0 10px;
-  }
-  
-  .footer-credits p {
-    margin: 10px 0;
-  }
+}
 
+.footer-credits p {
+    margin: 10px 0;
+}
 /* Mobile index  */
 @media (max-width: 850px) {
     .text-container {
         position: relative;
         top: 250PX;
-
-        }
-
-
-
+    }
     /* bach la ligne thbet ghir chwia */
     .animated-section .line {
-    display: none;
-    
-
+        display: none;
     }
-   /* la ligne li lta7t t7aydat */
+    /* la ligne li lta7t t7aydat */
     .animated-section .line.bottom {
         display: none;
     }
-      /* text animtion */
+    /* text animtion */
     .typing-text {
         font-size: 1rem; /* Smaller font size on smaller screens */
         animation: tiping 3s steps(30) 1s forwards, blink 0.60s step-end infinite; /* Typing and blinking effect */
@@ -385,8 +371,6 @@ li .nav-link:hover {
         to {
             width: 100%;
         }
-    
-    
     }
     /* image dial background */
     .container1{
@@ -394,7 +378,6 @@ li .nav-link:hover {
         position: relative;
         bottom: 250px;
     }
-    
     /* nav welat f Menu */
     .nav-links {
         display: none;
@@ -410,43 +393,32 @@ li .nav-link:hover {
         box-shadow: 0px 0px 10px rgba(0,0,0,0.7);
         height: 100vh;
         transition: all 0.3s ease-in-out;
-
     }
-
-/* mni ka twerek 3la menu */
+    /* mni ka twerek 3la menu */
     .menu-toggle {
         display: block;
         
     }
-
     .nav-links.active {
         display: flex;
-    height: 400px;
+        height: 400px;
     }
-
     .nav-link {
         padding: 10px 20px;
-        
-
-
-}
-
-/* contenue */
-.item {
-    flex-direction: column;
-    text-align: center;
-}
-
-.item img {
-    width: 100%;
-}
-.item.reverse {
-    flex-direction: column;
-    text-align: center;
     }
-
+    /* contenue */
+    .item {
+        flex-direction: column;
+        text-align: center;
+    }
+    .item img {
+        width: 100%;
+    }
+    .item.reverse {
+        flex-direction: column;
+        text-align: center;
+    }
     .item.reverse img {
-    width: 100%;
+        width: 100%;
     }
-
 }
