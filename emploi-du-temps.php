@@ -80,41 +80,38 @@
 </div>
             <!-- script dial drop menu emploi -->
     <script>
-// Get references to the dropdown and images
-const dropdown = document.getElementById("group");
-const images = document.querySelectorAll(".schedule-container img");
+        // Get references to the dropdown and images
+        const dropdown = document.getElementById("group");
+        const images = document.querySelectorAll(".schedule-container img");
 
-// Add change event listener to the dropdown
-dropdown.addEventListener("change", function () {
-    const selectedGroup = dropdown.value;
+        // Add change event listener to the dropdown
+        dropdown.addEventListener("change", function () {
+            const selectedGroup = dropdown.value;
 
-    // Hide all images
-    images.forEach((img) => {
-        img.style.display = "none";
-    });
+            // Hide all images
+            images.forEach((img) => {
+                img.style.display = "none";
+            });
 
-    // Show the selected group's image
-    const selectedImage = document.getElementById(selectedGroup);
-    if (selectedImage) {
-        selectedImage.style.display = "block";
-    } else {
-        console.warn("No image found for the selected group:", selectedGroup);
-    }
-});
+            // Show the selected group's image
+            const selectedImage = document.getElementById(selectedGroup);
+            if (selectedImage) {
+                selectedImage.style.display = "block";
+            } else {
+                console.warn("No image found for the selected group:", selectedGroup);
+            }
+        });
 
-// Optional: Trigger the change event on page load to show the default selected image
-window.addEventListener("load", () => {
-    dropdown.dispatchEvent(new Event("change"));
-});
-      </script>
+        // Optional: Trigger the change event on page load to show the default selected image
+        window.addEventListener("load", () => {
+            dropdown.dispatchEvent(new Event("change"));
+        });
+    </script>
 
 <!-- footer -->
-  <?php 
-       
-       include("footer.html") ;
-  
-  ?>    
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
-
+    <?php        
+        include("footer.html") ;  
+    ?>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
 </body>
 </html>
