@@ -4,7 +4,6 @@
   --third-color: #2d139e;
   --text-color-white: white;
   --color-white: #f5f5f5;
-
   --danger-color: red;
   --button-color: cyan;
 }
@@ -39,7 +38,6 @@ body, html {
 
 #content {
   display: none; /* Hide content initially */
- 
   text-align: center;
   opacity: 0; /* Start hidden */
   transition: opacity 1s ease-in-out; /* Smooth transition for content */
@@ -67,11 +65,7 @@ body, html {
   left: 50%;
   animation-delay: 0.5s;
 }
-/* .animated-section .line.bottom {
-    bottom: 0;
-    left: 50%;
-    animation-delay: 0.5s;
-  } */
+
 @keyframes move-line {
   0% {
     height: 0;
@@ -133,7 +127,7 @@ body .container1 {
   position: relative;
   height: 100vh;
   bottom: 85px;
-  background-image: url(images&videos/roche\ noire.jpg);
+  background-image: url(../images&videos/roche\ noire.jpg);
   filter: brightness(0.6);
   background-size: COVER;
   width: 100%;
@@ -333,7 +327,6 @@ main {
   padding: 20px;
   border-radius: 10px;
   border-radius: 8px;
-  /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);   */
 }
 
 .item {
@@ -496,17 +489,6 @@ main {
     margin: none;
   }
 }
-/* .show {
-    opacity: 1;
-    filter: blur(0);
-    transform: translatex(0);
-}
-.box-container .item:nth-child(2) {
-    transition-delay: 600ms;
-    /* transform: translateX(100%);  */
-/* justify-content: flex-end;
-} */
-
 /* les images des activites m3a l animation */
 
 .celebration-section {
@@ -613,13 +595,13 @@ main {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Stronger shadow effect */
 }
 .formateur1:hover {
-  content: url(images&videos/formateur-gifgif.gif);
+  content: url(../images&videos/formateur-gifgif.gif);
 }
 .formateur2:hover {
-  content: url(images&videos/formateur4.gif);
+  content: url(../images&videos/formateur4.gif);
 }
 .formateur3:hover {
-  content: url(images&videos/formateur-3-gif.gif);
+  content: url(../images&videos/formateur-3-gif.gif);
 }
 .navigation-buttons {
   display: none;
