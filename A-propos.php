@@ -12,7 +12,6 @@
     <title>a-propos</title>
 </head>
 <body> 
-
     <?php
         include("header.html");
     ?>
@@ -59,7 +58,7 @@
             <p>L'Institut Spécialisé de Technologie Appliquée Roches Noires. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem deleniti labore laboriosam commodi, iusto nostrum porro soluta. Sed enim perferendis quos exercitationem. Ad obcaecati unde ipsum, accusantium magnam quo asperiores.</p>
         </div>
     </section>
-        
+    
     <section>
         <!-- organigram -->
         <div class="organigram">      

@@ -15,16 +15,16 @@
     <?php
         include("header.html");
     ?>    
-<!-- background image et lignes -->
+    <!-- background image et lignes -->
     <div class="text-container">
         <h1 class="typing-text">Institut Spécialisé de Technologie Appliquée <br>
         <span>ACTIVITES</span> 
         </h1>
     </div>
-<!-- Background Section -->
+    <!-- Background Section -->
     <div class="container1"></div>
-<!-- JavaScript -->
-<!-- script pour menu on click -->
+    <!-- JavaScript -->
+    <!-- script pour menu on click -->
     <script>
         const menuToggle = document.querySelector('.menu-toggle');
         const navLinks = document.querySelector('.nav-links');
@@ -33,7 +33,7 @@
         });
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
-<!-- typicing -->
+    <!-- typicing -->
     <style>
         .cnt-b{
             display: flex;
@@ -145,7 +145,7 @@
             color: #555; /* Gray text for better readability */
         }
     </style>
-<!--ZAYD PART -->
+    <!--ZAYD PART -->
     <div class="cnt-b">
         <div class="cnt-ch1">
             
@@ -248,7 +248,7 @@
     <br>
     <br>
     <br>
-<!-- partiya dyal tsawar bi style css dyalha intern-->
+    <!-- partiya dyal tsawar bi style css dyalha intern-->
     <div class="main-cad">
         <div class="full">
             <img src="images&videos/1.png" >
@@ -336,7 +336,7 @@
             <img src="images&videos/tt.png" alt="">
         </div>
     </div>
-<!-- footer -->
+    <!-- footer -->
     <?php 
         include("footer.html") ;
     ?>
