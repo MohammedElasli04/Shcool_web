@@ -97,7 +97,7 @@
                         <p>Dévoué à l'innovation académique et à la réussite des stagiaires.</p>  
                     </div>  
                 </div>  
-                <a href="A-propos.html" style="color: #007BFF; text-decoration: none; font-size: 16px; margin-top: 15px; display: inline-block;">En savoir plus sur notre ISTA →</a>  
+                <a href="A-propos.php" style="color: #007BFF; text-decoration: none; font-size: 16px; margin-top: 15px; display: inline-block;">En savoir plus sur notre ISTA →</a>  
             </div>  
             <div class="images-container">  
                 <img src="images&videos/activite2.jpg" class="image-left">  
