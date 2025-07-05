@@ -15,15 +15,14 @@
     <?php
         include("header.html");
     ?>
-        <!-- background image et lignes -->
-        
+    <!-- background image et lignes -->
     <div class="animated-section">
         <div class="lines">
             <div class="line top"></div>
             <div class="line bottom"></div>
         </div>
-        <!-- text animation -->
     </div>
+    <!-- text animation -->
     <div class="text-container">
         <h1 class="typing-text">À Propos de<br>
             <span>Nous</span> 
@@ -31,12 +30,10 @@
     </div>
     <!-- Background Section -->
     <div class="container1"></div>
-        
     <!-- script pour menu on click -->
     <script>
         const menuToggle = document.querySelector('.menu-toggle');
         const navLinks = document.querySelector('.nav-links');
-    
         menuToggle.addEventListener('click', () => {
             navLinks.classList.toggle('active');
         });
@@ -48,7 +45,6 @@
             </h1>
         </div>
     </section>
-        
     <section class="celebration-section">
         <div class="celebration-image animate-on-scroll">
             <img src="images&videos/roche noire.jpg" alt="Image de Célébration">
@@ -58,7 +54,6 @@
             <p>L'Institut Spécialisé de Technologie Appliquée Roches Noires. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem deleniti labore laboriosam commodi, iusto nostrum porro soluta. Sed enim perferendis quos exercitationem. Ad obcaecati unde ipsum, accusantium magnam quo asperiores.</p>
         </div>
     </section>
-    
     <section>
         <!-- organigram -->
         <div class="organigram">      
@@ -66,7 +61,6 @@
                 <span>Chercher :</span>
                 <input type="text" id="search" placeholder="Search..." onkeyup="filterMembers()">
             </div>
-            
             <!-- Top Level: President -->
             <div class="level">
                 <div class="box" onclick="toggleInfo(this)">
@@ -77,8 +71,7 @@
                         <strong>Fun Fact :</strong> Aime peindre !
                     </div>
                 </div>
-            </div>
-            
+            </div>          
             <!-- Second Level: Director -->
             <div class="level">
                 <div class="box" onclick="toggleInfo(this)">
@@ -89,8 +82,7 @@
                         <strong>Fun Fact :</strong> Aime le jardinage !
                     </div>
                 </div>
-            </div>
-            
+            </div>            
             <!-- Third Level: One Staff Member -->
             <div class="level">
                 <div class="box" onclick="toggleInfo(this)">
@@ -101,8 +93,7 @@
                         <strong>Fun Fact :</strong> Aime la randonnée !
                     </div>
                 </div>
-            </div>
-            
+            </div>           
             <!-- Fourth Level: Two Staff Members -->
             <div class="level">
                 <div class="box" onclick="toggleInfo(this)">
@@ -122,7 +113,6 @@
                     </div>
                 </div>
             </div>
-            
             <!-- Fifth Level: One Student-Related Staff (Conseiller) -->
             <div class="level">
                 <div class="box" onclick="toggleInfo(this)">
@@ -134,7 +124,6 @@
                     </div>
                 </div>
             </div>
-            
             <!-- First 13 Trainers -->
             <div class="level" id="level">
                 <div class="box" onclick="toggleInfo(this)">
@@ -229,12 +218,10 @@
                     </div>
                 </div>
             </div>
-            
             <!-- Clickable Text to Show Additional Trainers -->
             <div class="expand-trainers" onclick="toggleAdditionalTrainers()">
                 Cliquez ici pour voir plus
             </div>
-            
             <!-- Additional Trainers Section -->
             <div id="additional-trainers" class="additional-trainers">
                 <div class="level">
@@ -304,9 +291,8 @@
                 </div>
             </div>
         </div>
-    </section>
-        
-        <!-- script d'organigram -->
+    </section>    
+    <!-- script d'organigram -->
     <script>
         function toggleInfo(box) {
             const info = box.querySelector('.info');
@@ -332,7 +318,7 @@
             organigram.style.display = organigram.style.display === 'block' ? 'none' : 'block';
         }
     </script>
-<!-- Les cartes avec les infos des stagiaires, formateurs, etc. -->
+    <!-- Les cartes avec les infos des stagiaires, formateurs, etc. -->
     <section>
         <div class="card-container">
             <div class="card">
@@ -352,7 +338,7 @@
             </div>
         </div>
     </section>
-<!-- Section d'Appréciation -->
+    <!-- Section d'Appréciation -->
     <div class="appreciation">
         <h2>Appréciation Spéciale</h2>
         <div class="team">
@@ -372,8 +358,8 @@
             </div>
         </div>
     </div>
-<!-- On-scroll-animation -->
-<!-- JavaScript -->
+    <!-- On-scroll-animation -->
+    <!-- JavaScript -->
     <script>
         // Select all elements to animate
         const elementsToAnimate = document.querySelectorAll('.animate-on-scroll');
@@ -386,12 +372,10 @@
                 }
             });
         }, { threshold: 0.5 }); // Trigger when 50% of the element is visible
-
         // Observe each element
         elementsToAnimate.forEach(element => observer.observe(element));
     </script>
-
-<!-- Section des activités de la vie du campus -->
+    <!-- Section des activités de la vie du campus -->
     <section class="campus-life-activities">
         <h2>Service Pédagogique</h2>
         <div class="row">
@@ -417,11 +401,11 @@
             </div>
         </div>
     </section>
-<!-- Footer -->
+    <!-- Footer -->
     <?php 
         include("footer.html") ;
     ?>
-<!-- script-bootstrap -->
+    <!-- script-bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
 </body>
 </html>

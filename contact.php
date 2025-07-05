@@ -14,60 +14,47 @@
 </head>
 <body>
     <?php
-       
-          include("header.html");
-
-       ?>
-           <!-- script pour menu on click -->
+        include("header.html");
+    ?>
+    <!-- script pour menu on click -->
     <script>
-        
         const menuToggle = document.querySelector('.menu-toggle');
         const navLinks = document.querySelector('.nav-links');
-
         menuToggle.addEventListener('click', () => {
             navLinks.classList.toggle('active');
         });
     </script>
-    </header>
     <div class="animated-section">
-            
         <div class="lines">
-          <div class="line top"></div>
-          <div class="line bottom"></div>
-        </div>
-       <!-- text animation -->
-      </div>
-<div class="text-container">
-    <h1 class="typing-text">contacter-nous</b> 
-    </h1>
-</div>
-<!-- Background Section -->
-<div class="container1"></div>
-    
-    <br><br><br>
- 
-
-  <div class="contact-container">
-    <div class="contact-info">
-      <h2>nos Informations </h2>
-      <p>ISRA-ROCHE-NOIR</p>
-      <p>Adresse : 123 Rue de la Ville, 75000 </p>
-      <p>Téléphone : 01 23 45 67 89</p>
-      <p>Email : contact@etablissement.com</p>
+            <div class="line top"></div>
+            <div class="line bottom"></div>
+        </div> 
     </div>
-
-    <div class="contact-form">
-      <h2>Formulaire de contact</h2>
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfFVsiIi71Gs4xt1POq6h8iXduA-jxNVGossEoAe8koAmOT7g/viewform?embedded=true" width="640" height="988" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>    </div>
-  </div>
- <!-- footer -->
-       <?php 
-       
-            include("footer.html") ;
-       
-       ?>
-  <!-- bootstrap -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
-
+    <!-- text animation -->
+    <div class="text-container">
+        <h1 class="typing-text">contacter-nous</b> 
+        </h1>
+    </div>
+    <!-- Background Section -->
+    <div class="container1"></div>
+    <br><br><br>
+    <div class="contact-container">
+      <div class="contact-info">
+          <h2>nos Informations </h2>
+          <p>ISRA-ROCHE-NOIR</p>
+          <p>Adresse : 123 Rue de la Ville, 75000 </p>
+          <p>Téléphone : 01 23 45 67 89</p>
+          <p>Email : contact@etablissement.com</p>
+      </div>
+      <div class="contact-form">
+          <h2>Formulaire de contact</h2>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfFVsiIi71Gs4xt1POq6h8iXduA-jxNVGossEoAe8koAmOT7g/viewform?embedded=true" width="640" height="988" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>    </div>
+    </div>
+    <!-- footer -->
+    <?php        
+        include("footer.html") ;       
+    ?>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
 </body>
 </html>
