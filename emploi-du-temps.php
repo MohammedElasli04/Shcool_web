@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="x-icon" href="images&videos/ofppt.png"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <title>emploi du temps</title>
+    <title>Emploi du temps</title>
 </head>
 <body>
     <?php
