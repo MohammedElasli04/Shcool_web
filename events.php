@@ -15,99 +15,92 @@
     <?php
         include("header.html");
     ?>
-<!-- background image et lignes -->
-
+    <!-- background image et lignes -->
     <div class="animated-section">
-            <div class="lines">
+        <div class="lines">
             <div class="line top"></div>
             <div class="line bottom"></div>
-            </div>
-        <!-- text animation -->
+        </div>
+    <!-- text animation -->
     </div>
     <div class="text-container">
         <h1 class="typing-text">
-          Stagiaire du mois
+            Stagiaire du mois
         </h1>
     </div>
     <!-- Background Section -->
     <div class="container1"></div>
-
     <!-- JavaScript -->
     <!-- script pour menu on click -->
     <script>
-        
         const menuToggle = document.querySelector('.menu-toggle');
         const navLinks = document.querySelector('.nav-links');
-
         menuToggle.addEventListener('click', () => {
             navLinks.classList.toggle('active');
         });
     </script>
-
-<!-- <h1>PLANING DES EVENMENT</h1> -->
     <div class="calendar-container">
-      <h1 >ici vous trouver les stagiaires du mois </h1>
+        <h1 >ici vous trouver les stagiaires du mois </h1>
     </div>
-
-<!-- les images des activites -->
+    <!-- les images des activites -->
     <section class="celebration-section">
-      <div class="celebration-image animate-on-scroll">
-        <img src="images&videos/12.png" alt="Celebration Image">
-      </div>
-      <div class="celebration-text animate-on-scroll">
-          <h2>DEVLOPPMENT DEGITALE PREMIER ANNEE</h2> 
-          <p>l'attachement de notre établissement aux valeurs patriotiques et à l'identité marocaine et enivitable. À travers ce tableau d'affichage, décoré des drapeaux du Maroc et de projets réalisés par nos stagiaire, nous mettons en avant notre héritage culturel et notre unité nationale. Célébrer les fêtes nationales et rester connectés aux grands événements de notre pays est une priorité pour nous. Ces moments renforcent notre fierté d'appartenir à cette nation riche en histoire et en traditions, et permettent de transmettre ces valeurs précieuses aux générations futures.</p>.
-      </div>
+        <div class="celebration-image animate-on-scroll">
+            <img src="images&videos/12.png" alt="Celebration Image">
+        </div>
+        <div class="celebration-text animate-on-scroll">
+            <h2>DEVLOPPMENT DEGITALE PREMIER ANNEE</h2> 
+            <p>l'attachement de notre établissement aux valeurs patriotiques et à l'identité marocaine et enivitable. À travers ce tableau d'affichage, décoré des drapeaux du Maroc et de projets réalisés par nos stagiaire, nous mettons en avant notre héritage culturel et notre unité nationale. Célébrer les fêtes nationales et rester connectés aux grands événements de notre pays est une priorité pour nous. Ces moments renforcent notre fierté d'appartenir à cette nation riche en histoire et en traditions, et permettent de transmettre ces valeurs précieuses aux générations futures.</p>.
+        </div>
     </section>
     <section class="celebration-section">
-      <div class="celebration-image animate-on-scroll">
-        <img src="images&videos/16.png" alt="Celebration Image">
-      </div>  
-      <div class="celebration-text animate-on-scroll">
-          <p>  
-              <h2>GESTION PREMIER ANNEE</h2> <br> 
-              les activités parascolaires occupent une place essentielle dans le développement des compétences et des valeurs de nos stagiaire. Lors de notre événement consacré à la sécurité routière, nous avons mis l'accent sur la sensibilisation en abordant des sujets cruciaux pour la vie quotidienne. Ce type d’initiative vise à éduquer et à responsabiliser les étudiants tout en renforçant leur rôle actif dans la société. Grâce à des ateliers interactifs et des discussions enrichissantes, nous encourageons nos élèves à devenir des citoyens conscients et engagés, prêts à relever les défis de demain." 
-          </p>       
-      </div>
+        <div class="celebration-image animate-on-scroll">
+            <img src="images&videos/16.png" alt="Celebration Image">
+        </div>  
+        <div class="celebration-text animate-on-scroll">
+            <p>  
+                <h2>GESTION PREMIER ANNEE</h2> <br> 
+                les activités parascolaires occupent une place essentielle dans le développement des compétences et des valeurs de nos stagiaire. Lors de notre événement consacré à la sécurité routière, nous avons mis l'accent sur la sensibilisation en abordant des sujets cruciaux pour la vie quotidienne. Ce type d’initiative vise à éduquer et à responsabiliser les étudiants tout en renforçant leur rôle actif dans la société. Grâce à des ateliers interactifs et des discussions enrichissantes, nous encourageons nos élèves à devenir des citoyens conscients et engagés, prêts à relever les défis de demain." 
+            </p>       
+        </div>
     </section>
     <section class="celebration-section">
-      <div class="celebration-image animate-on-scroll">
-        <img src="images&videos/salahpic.jpg" alt="Celebration Image">
-      </div>
-      <div class="celebration-text animate-on-scroll">
-          <h2>DEVLOPPMENT DEGITALE PREMIER ANNEE</h2> <p>l'attachement de notre établissement aux valeurs patriotiques et à l'identité marocaine et enivitable. À travers ce tableau d'affichage, décoré des drapeaux du Maroc et de projets réalisés par nos stagiaire, nous mettons en avant notre héritage culturel et notre unité nationale. Célébrer les fêtes nationales et rester connectés aux grands événements de notre pays est une priorité pour nous. Ces moments renforcent notre fierté d'appartenir à cette nation riche en histoire et en traditions, et permettent de transmettre ces valeurs précieuses aux générations futures.</p>.
-      </div>
+        <div class="celebration-image animate-on-scroll">
+            <img src="images&videos/salahpic.jpg" alt="Celebration Image">
+        </div>
+        <div class="celebration-text animate-on-scroll">
+            <h2>DEVLOPPMENT DEGITALE PREMIER ANNEE</h2> <p>l'attachement de notre établissement aux valeurs patriotiques et à l'identité marocaine et enivitable. À travers ce tableau d'affichage, décoré des drapeaux du Maroc et de projets réalisés par nos stagiaire, nous mettons en avant notre héritage culturel et notre unité nationale. Célébrer les fêtes nationales et rester connectés aux grands événements de notre pays est une priorité pour nous. Ces moments renforcent notre fierté d'appartenir à cette nation riche en histoire et en traditions, et permettent de transmettre ces valeurs précieuses aux générations futures.</p>.
+        </div>
     </section>
     <section class="celebration-section">
-      <div class="celebration-image animate-on-scroll">
-        <img src="images&videos/salahpic.jpg" alt="Celebration Image">
-      </div>
-      <div class="celebration-text animate-on-scroll">
-        <p> 
-          <h2>GESTION PREMIER ANNEE</h2>
-          <br> les activités parascolaires occupent une place essentielle dans le développement des compétences et des valeurs de nos stagiaire. Lors de notre événement consacré à la sécurité routière, nous avons mis l'accent sur la sensibilisation en abordant des sujets cruciaux pour la vie quotidienne. Ce type d’initiative vise à éduquer et à responsabiliser les étudiants tout en renforçant leur rôle actif dans la société. Grâce à des ateliers interactifs et des discussions enrichissantes, nous encourageons nos élèves à devenir des citoyens conscients et engagés, prêts à relever les défis de demain." 
-        </p>
-      </div>       
+        <div class="celebration-image animate-on-scroll">
+            <img src="images&videos/salahpic.jpg" alt="Celebration Image">
+        </div>
+        <div class="celebration-text animate-on-scroll">
+            <p> 
+                <h2>GESTION PREMIER ANNEE</h2>
+                <br> les activités parascolaires occupent une place essentielle dans le développement des compétences et des valeurs de nos stagiaire. Lors de notre événement consacré à la sécurité routière, nous avons mis l'accent sur la sensibilisation en abordant des sujets cruciaux pour la vie quotidienne. Ce type d’initiative vise à éduquer et à responsabiliser les étudiants tout en renforçant leur rôle actif dans la société. Grâce à des ateliers interactifs et des discussions enrichissantes, nous encourageons nos élèves à devenir des citoyens conscients et engagés, prêts à relever les défis de demain." 
+            </p>
+        </div>       
     </section>
     <section class="celebration-section">
-      <div class="celebration-image animate-on-scroll">
-        <img src="images&videos/salahpic.jpg" alt="Celebration Image">
-      </div>
-      <div class="celebration-text animate-on-scroll">
-          <h2>DEVLOPPMENT DEGITALE PREMIER ANNEE</h2>
-          <p>l'attachement de notre établissement aux valeurs patriotiques et à l'identité marocaine et enivitable. À travers ce tableau d'affichage, décoré des drapeaux du Maroc et de projets réalisés par nos stagiaire, nous mettons en avant notre héritage culturel et notre unité nationale. Célébrer les fêtes nationales et rester connectés aux grands événements de notre pays est une priorité pour nous. Ces moments renforcent notre fierté d'appartenir à cette nation riche en histoire et en traditions, et permettent de transmettre ces valeurs précieuses aux générations futures.</p>.
-      </div>
+        <div class="celebration-image animate-on-scroll">
+            <img src="images&videos/salahpic.jpg" alt="Celebration Image">
+        </div>
+        <div class="celebration-text animate-on-scroll">
+            <h2>DEVLOPPMENT DEGITALE PREMIER ANNEE</h2>
+            <p>l'attachement de notre établissement aux valeurs patriotiques et à l'identité marocaine et enivitable. À travers ce tableau d'affichage, décoré des drapeaux du Maroc et de projets réalisés par nos stagiaire, nous mettons en avant notre héritage culturel et notre unité nationale. Célébrer les fêtes nationales et rester connectés aux grands événements de notre pays est une priorité pour nous. Ces moments renforcent notre fierté d'appartenir à cette nation riche en histoire et en traditions, et permettent de transmettre ces valeurs précieuses aux générations futures.</p>.
+        </div>
     </section>
     <section class="celebration-section">
-      <div class="celebration-image animate-on-scroll">
-        <img src="images&videos/salahpic.jpg" alt="Celebration Image">
-      </div>
-      <div class="celebration-text animate-on-scroll">
-        <p>
-          <h2>GESTION PREMIER ANNEE</h2>
-          <br> les activités parascolaires occupent une place essentielle dans le développement des compétences et des valeurs de nos stagiaire. Lors de notre événement consacré à la sécurité routière, nous avons mis l'accent sur la sensibilisation en abordant des sujets cruciaux pour la vie quotidienne. Ce type d’initiative vise à éduquer et à responsabiliser les étudiants tout en renforçant leur rôle actif dans la société. Grâce à des ateliers interactifs et des discussions enrichissantes, nous encourageons nos élèves à devenir des citoyens conscients et engagés, prêts à relever les défis de demain." 
-        </p>
-      </div>       
+        <div class="celebration-image animate-on-scroll">
+            <img src="images&videos/salahpic.jpg" alt="Celebration Image">
+        </div>
+        <div class="celebration-text animate-on-scroll">
+          <p>
+              <h2>GESTION PREMIER ANNEE</h2>
+              <br> les activités parascolaires occupent une place essentielle dans le développement des compétences et des valeurs de nos stagiaire. Lors de notre événement consacré à la sécurité routière, nous avons mis l'accent sur la sensibilisation en abordant des sujets cruciaux pour la vie quotidienne. Ce type d’initiative vise à éduquer et à responsabiliser les étudiants tout en renforçant leur rôle actif dans la société. Grâce à des ateliers interactifs et des discussions enrichissantes, nous encourageons nos élèves à devenir des citoyens conscients et engagés, prêts à relever les défis de demain." 
+          </p>
+        </div>       
     </section>
 <!-- footer -->
     <?php 
