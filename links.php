@@ -87,9 +87,9 @@
             const items = document.querySelectorAll('.item');
             const observer = new IntersectionObserver((entries) => {
                 entries.forEach(entry => {
-                  if (entry.isIntersecting) {
-                    entry.target.classList.add('active');
-                  }
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                    }
                 });
             }, { threshold: 0.2 }); // Trigger when 20% of the element is visible
             items.forEach(item => observer.observe(item));
